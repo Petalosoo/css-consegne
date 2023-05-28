@@ -1,0 +1,20 @@
+
+
+:root{
+    --bg-color: black;
+    --size:100px;
+    --item-color:orange;
+    --ball-radius:50%;
+    
+}
+
+body {
+    background-color:var(--bg-color);
+}
+
+.ball {
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--item-color);
+    border-radius: var(--ball-radius);
+}

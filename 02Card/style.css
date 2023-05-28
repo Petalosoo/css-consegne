@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+
+  border: 1px solid darkgray;
+
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+main img {
+  text-align: center;
+  color: aliceblue;
+  height: 12em;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+main div {
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+}
+
+.item {
+  width: 100%;
+  border-top: 1px solid darkgray;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+div:last-child {
+  border-top: 1px solid darkgray;
+  gap: 30px;
+  flex-direction: row;
+  display: flex;
+}

@@ -1,0 +1,34 @@
+body {
+  display: flex;
+}
+
+#green {
+  flex: 1;
+  order: 3;
+}
+#yellow {
+  order: 1;
+  flex: 2;
+}
+
+#red {
+  order: 2;
+  flex: 2;
+}
+
+#orange {
+  order: 4;
+  flex: 3;
+}
+#blue {
+  order: 5;
+  flex: 1;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  text-align: center;
+}
